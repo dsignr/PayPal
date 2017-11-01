@@ -101,8 +101,9 @@ defmodule PayPal.API do
   def post(url, data) do
     {:ok, data} = Poison.encode(data)
     # For debugging requests in development
-    Logger.warn IO.inspect data
-
+    if Application.get_env(:pay_pal, :env) == :sandbox do
+      Logger.warn IO.inspect data
+    end
     case HTTPoison.post(base_url() <> url, data, headers()) do
       {:ok, %{status_code: 401}} ->
         {:error, :unauthorised}
