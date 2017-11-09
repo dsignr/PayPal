@@ -1,5 +1,7 @@
 # PayPal
 
+## Note (from this fork): Don't use PayPal. Ever. Do whatever it takes to use something like Stripe. Avoid Paypal at all costs. Heck, even give away your stuff for free, but don't use PayPal. Terrible product, documentation, API and everything else. I wasted 30 days working with their API, waiting for their support to fix all my sandbox woes.
+
 ### Elixir library for working with the PayPal REST API.
 
 [![Build Status](https://travis-ci.org/Zensavona/PayPal.svg?branch=master)](https://travis-ci.org/Zensavona/PayPal) [![Inline docs](http://inch-ci.org/github/zensavona/PayPal.svg)](http://inch-ci.org/github/zensavona/PayPal) [![Hex Docs](https://img.shields.io/badge/hex-docs-9768d1.svg)](https://hexdocs.pm/pay_pal) [![Coverage Status](https://coveralls.io/repos/github/Zensavona/PayPal/badge.svg?branch=master)](https://coveralls.io/github/Zensavona/PayPal?branch=master) [![Deps Status](https://beta.hexfaktor.org/badge/all/github/Zensavona/PayPal.svg)](https://beta.hexfaktor.org/github/Zensavona/PayPal) [![hex.pm version](https://img.shields.io/hexpm/v/pay_pal.svg)](https://hex.pm/packages/pay_pal) [![hex.pm downloads](https://img.shields.io/hexpm/dt/pay_pal.svg)](https://hex.pm/packages/pay_pal) [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
